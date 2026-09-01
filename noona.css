@@ -141,3 +141,87 @@ footer {
   margin-right: 24px;
   color: #919496;
 }
+
+/* ==========================================
+   모바일 & 태블릿 반응형 스타일 (768px 이하)
+   ========================================== */
+@media screen and (max-width: 768px) {
+  /* 네비게이션 바 조정 */
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .nav-item {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+
+  /* 메인 영역 조정 */
+  main {
+    height: auto;
+    min-height: 500px;
+    padding: 60px 20px;
+    background-size: cover;
+  }
+
+  .headline {
+    font-size: 48px;
+    line-height: 56px;
+    left: 0; /* 고정 위치 해제 */
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .headline-first {
+    left: 0; /* 고정 위치 해제 */
+  }
+
+  .sub-headline {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+
+  /* 푸터 영역 조정 */
+  footer {
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .container {
+    padding-top: 40px;
+  }
+
+  .footer-menu {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .first-box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .column {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .second-box {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 20px 0;
+  }
+
+  .second-line {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .second-line-item {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}
