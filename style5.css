@@ -1,0 +1,25 @@
+.parent {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: rgb(145, 132, 132);
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  position: relative;
+}
+.box2 {
+  background-color: rgb(201, 96, 96);
+  width: 100px;
+  height: 100px;
+  color: rgb(64, 65, 66);
+  position: absolute;
+}
+
+.box-position {
+  left: 50px;
+  top: 50px;
+}
